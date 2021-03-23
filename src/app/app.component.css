@@ -1,14 +1,23 @@
 app-header{
-    display: flex;
     justify-content: space-between;
     align-items: center;
-    color: whitesmoke;
-    background-color: hsl(300, 50%, 80%);
-    padding: 20px;
+    display: flex;
 }
 app-link-box{
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 100px;
+}
+app-footer{
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 100vw;
+    text-align: center;
+}
+app-footer, app-header{
+    color: whitesmoke;
+    padding: 20px;
+    background-color: hsl(300, 50%, 80%);
 }

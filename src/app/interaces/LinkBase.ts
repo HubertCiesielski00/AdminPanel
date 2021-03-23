@@ -12,7 +12,7 @@ export const LINKS: LinkTemplate[] = [
     LinkIcon: 'https://upload.wikimedia.org/wikipedia/en/a/a1/Grafana_logo.svg'
 },
 {
-    LinkName: 'WebAdmin',
+    LinkName: 'Webmin',
     LinkAdress: 'https://192.168.20.2:10000/',
     LinkIcon: ''
 },
