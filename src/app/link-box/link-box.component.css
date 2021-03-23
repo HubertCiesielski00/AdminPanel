@@ -1,6 +1,6 @@
 .LinkBox{
     height: 200px;
-    width: 200px;
+    min-width: 200px;
     margin: 0 20px;
     text-align: center;
     border-radius: 30px;
@@ -21,5 +21,26 @@
     background-color: hsl(220, 50%, 80%);
 }
 .ContentBox button{
+    color: whitesmoke;
     border: none;
+    background-color: hsl(300, 100%, 70%);
+}
+.ContentBox button:nth-child(2){
+    background-color: hsl(350, 90%, 50%);
+    transition: background-color 320ms ease-in-out; 
+}
+.ContentBox button:nth-child(2):hover{
+    background-color: whitesmoke;
+    color: hsl(350, 90%, 50%);
+}
+
+app-managment{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    right: 0;
+    top: 0;
+    height: 100%;
+    background-color: hsl(300, 50%, 60%);
 }

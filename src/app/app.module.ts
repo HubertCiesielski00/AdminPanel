@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { LinkBoxComponent } from './link-box/link-box.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { ManagmentComponent } from './managment/managment.component';
 
 @NgModule({
   declarations: [
@@ -12,6 +13,7 @@ import { FooterComponent } from './footer/footer.component';
     LinkBoxComponent,
     HeaderComponent,
     FooterComponent,
+    ManagmentComponent,
   ],
   imports: [
     BrowserModule
