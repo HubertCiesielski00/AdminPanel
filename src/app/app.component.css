@@ -1,0 +1,14 @@
+app-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: whitesmoke;
+    background-color: hsl(300, 50%, 80%);
+    padding: 20px;
+}
+app-link-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
