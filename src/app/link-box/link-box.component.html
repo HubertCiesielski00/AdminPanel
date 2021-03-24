@@ -1,5 +1,5 @@
 
-<app-managment></app-managment>
+<app-managment [class.ManHidden] = "Visible" (Toggle) = "ToggleVision()" ></app-managment>
 
     <div class = "LinkBox" *ngFor = "let link of links; let i = index">
         <a href="{{link.LinkAdress}}" target="{{link.LinkAdress}}">

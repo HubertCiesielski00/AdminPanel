@@ -21,5 +21,4 @@ export const LINKS: LinkTemplate[] = [
     LinkAdress: 'http://pimonitor.pl/pivpn-gui/',
     LinkIcon: ''
 },
-
 ]

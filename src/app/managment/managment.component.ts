@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Output, EventEmitter } from '@angular/core';
 import { LinkTemplate } from "../interaces/LinkTemplate";
 import { LINKS } from "../interaces/LinkBase";
 
@@ -11,15 +11,20 @@ export class ManagmentComponent {
 
   links: LinkTemplate[] = LINKS;
 
+  Visible:boolean = false;
+
   AddLink(link: string, address: string, icon:string ):void{
-    this.links.push(
-      {
+    this.links.push({
         LinkName: link,
         LinkAdress: address,
         LinkIcon: icon,
-      }
-    )
-    link = '';
-  }
+      })
+    }
 
+    @Output() Toggle = new EventEmitter<void>();
+
+    ToggleVision():void{
+      this.Toggle.emit();
+    }
+  
 }

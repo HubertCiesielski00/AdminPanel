@@ -3,6 +3,7 @@ body{
     margin: 0 !important;
     position: relative;
     height: 100vh;
+    overflow: hidden;
 }
 *{
     box-sizing: border-box;

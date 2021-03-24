@@ -4,12 +4,23 @@ input, button{
     font-size: 24px;
 }
 button{
-    background-color: hsl(300, 50%, 80%);
+    background-color: hsl(220, 50%, 60%);
     color: whitesmoke;
-    border: 2px solid whitesmoke;
+    border: 3px solid hsl(120, 70%, 50%);
     transition: background-color 500ms ease-in-out;
 }
 button:hover{
     background-color: whitesmoke;
     color: hsl(300, 50%, 50%);
+}
+button:disabled{
+    border: 3px solid hsl(360, 50%, 50%);
+}
+.ViewChanger{
+    border: none;
+    position: absolute;
+    top: 0;
+    width: 70px;
+    height: 70px;
+    transform: translateX(-120%);
 }

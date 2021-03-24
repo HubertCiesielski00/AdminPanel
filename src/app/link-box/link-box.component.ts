@@ -12,6 +12,12 @@ export class LinkBoxComponent{
 
 links: LinkTemplate[] = LINKS;
 
+Visible =  false;
+
+  ToggleVision():void{
+    this.Visible = !this.Visible;
+  }
+
  remove(index:any){
    this.links.splice(index, 1);
  }

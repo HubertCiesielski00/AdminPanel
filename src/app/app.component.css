@@ -1,6 +1,6 @@
 app-header{
     height: 10%;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 app-link-box{
     height: 87%;
@@ -22,5 +22,5 @@ app-footer, app-header{
     display: flex;
     color: whitesmoke;
     padding: 20px;
-    background-color: hsl(300, 50%, 80%);
+    background-color: hsl(220, 80%, 10%);
 }
