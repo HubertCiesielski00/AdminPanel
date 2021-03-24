@@ -10,15 +10,16 @@ import {LINKS} from '../interaces/LinkBase';
 })
 export class LinkBoxComponent{
 
-links: LinkTemplate[] = LINKS;
+  links: LinkTemplate[] = LINKS;
 
-Visible =  false;
+  Visible:boolean =  true;
 
   ToggleVision():void{
     this.Visible = !this.Visible;
   }
 
  remove(index:any){
+   if(confirm(`Czy na pewno chcesz usunąć link do ${this.links[index].LinkName}?`))
    this.links.splice(index, 1);
  }
 }

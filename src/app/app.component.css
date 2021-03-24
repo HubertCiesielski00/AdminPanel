@@ -3,12 +3,13 @@ app-header{
     justify-content: flex-start;
 }
 app-link-box{
-    height: 87%;
+    min-height: 87%;
+    width: 100%;
     position: relative;
+    padding: 100px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 100px;
 }
 app-footer{
     height: 3%;
