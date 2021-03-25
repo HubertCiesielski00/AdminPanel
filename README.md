@@ -1,3 +1,10 @@
+# Programmer adnotation
+
+The project will be used at my home server and works with simulated database created in models/databese.ts due to fact that my co-worker who is ressponnsible for backend is currently on vacation.
+When he's back and backend for app is ready I'll improve app with API implementation.
+
+Architektowo group is unformal group of friends with shared passion - IT.
+
 # AdminPanel
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.3.

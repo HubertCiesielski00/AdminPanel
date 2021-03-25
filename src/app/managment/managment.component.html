@@ -1,5 +1,5 @@
-<input type="text" placeholder="Name" (keyup) = "0" #name [(ngModel)]="link">
+<input type="text" placeholder="Name" (keyup) = "0" #name [(ngModel)]="linkname">
 <input type="text" placeholder="Network Address" (keyup) = "0" #address [(ngModel)]="destination">
 <input type="text" placeholder="Icon Address" #icon [(ngModel)]="Image">
-<Button (click)= "AddLink()" [disabled]="name.value === '' || address.value === '' " >Dodaj</Button>
+<Button (click)= "NewLink()" [disabled]="name.value === '' || address.value === '' " >Dodaj</Button>
 <Button class="ViewChanger" (click) = "ToggleVision()" >Menu</Button>
