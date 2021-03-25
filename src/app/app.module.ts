@@ -6,6 +6,7 @@ import { LinkBoxComponent } from './link-box/link-box.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { ManagmentComponent } from './managment/managment.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,7 @@ import { ManagmentComponent } from './managment/managment.component';
     ManagmentComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule, FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -11,14 +11,20 @@ export class ManagmentComponent {
 
   links: LinkTemplate[] = LINKS;
 
-  Visible:boolean = false;
+  link: string = '';
+  destination: string = '';
+  Image:string = ''; 
 
-  AddLink(link: string, address: string, icon:string ):void{
+  AddLink():void{
     this.links.push({
-        LinkName: link,
-        LinkAdress: address,
-        LinkIcon: icon,
+        LinkName: this.link,
+        LinkAdress: this.destination,
+        LinkIcon: this.Image,
       })
+      this.link = '';
+      this.destination = '';
+      this.Image = '';
+      this.ToggleVision();
     }
 
     @Output() Toggle = new EventEmitter<void>();
